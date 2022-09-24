@@ -10,6 +10,7 @@
     "index.js",
     "ios",
     "modules",
+    "src",
     "MovrModuleRn.podspec"
   ],
   "scripts": {
