@@ -1,0 +1,41 @@
+{
+  "name": "movr_module_rn",
+  "title": "React Native movr sdk",
+  "version": "1.0.0",
+  "description": "React Native movr module for iOS and Android",
+  "main": "index.js",
+  "files": [
+    "README.md",
+    "android",
+    "index.js",
+    "ios",
+    "MovrModuleRn.podspec"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eamers/movr_module_rn.git",
+    "baseUrl": "https://github.com/eamers/movr_module_rn"
+  },
+  "homepage": "https://github.com/eamers/movr_module_rn",
+  "keywords": [
+    "react-native"
+  ],
+  "author": {
+    "name": "Your Name",
+    "email": "yourname@email.com"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": ">=17.0.1",
+    "react-native": ">=0.65.0 <1.0.x"
+  },
+  "devDependencies": {
+    "@types/react": "^17",
+    "@types/react-native": "0.68.0"
+  }
+}
