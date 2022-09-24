@@ -1,4 +1,4 @@
-# movr_module_rn
+# React Native Movr SDK
 
 ## Getting started
 
