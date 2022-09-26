@@ -43,13 +43,23 @@ end
 ```javascript
 import MovrModuleRn from 'movr_module_rn';
 ```
-Implement code to open MovrScreen
+Config paramters
+```javascript
+const parameters = {
+  apiKey: 'xxxxxx',
+  userId: 'userId',
+  apiBaseUrl: 'xxxxx',
+  primaryColor: '#FF6666',
+  fontFamily: 'Montserrat',
+  startingPage: 'xxxxxx',
+};
+```
+Convert JSON parameter to string and start MovrScreen with the string parameter
 
 ```javascript
-MovrModuleRn.startFlutterActivity('', 0, text => {
-  // 1st param - string argment
-  // 2nd param - number argment
-  // 3rd param - callback which returns input arguments
+MovrModuleRn.startFlutterActivity(JSON.stringify(parameters), text => {
+  // 1st param - string paramter
+  // 2nd param - callback which returns input argument
   console.log(text);
 });
 ```
@@ -92,12 +102,22 @@ const App: React.FC = () => {
         <Button
           title={'Start Movr Screen'}
           onPress={() => {
-            MovrModuleRn.startFlutterActivity('', 0, text => {
-              // 1st param - string argment
-              // 2nd param - number argment
-              // 3rd param - callback which returns input arguments
-              console.log(text);
-            });
+            const parameters = {
+              apiKey: 'xxxxxx',
+              userId: 'userId',
+              apiBaseUrl: 'xxxxx',
+              primaryColor: '#FF6666',
+              fontFamily: 'Montserrat',
+              startingPage: 'xxxxxx',
+            };
+            MovrModuleRn.startFlutterActivity(
+              JSON.stringify(parameters),
+              text => {
+                // 1st param - string argment
+                // 2nd param - callback which returns input argument
+                console.log(text);
+              },
+            );
           }}
         />
       </ScrollView>
