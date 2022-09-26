@@ -9,13 +9,16 @@
 Add following repositories to your android/build.gradle file:
 
 ```javascript
-repositories {
-    maven {
-        url "$rootDir/../node_modules/movr_module_rn/modules/host/outputs/repo"
-    }
-    maven {
-        url "https://storage.googleapis.com/download.flutter.io"
-    }
+allprojects {
+  repositories {
+      ...
+      maven {
+          url "$rootDir/../node_modules/movr_module_rn/modules/host/outputs/repo"
+      }
+      maven {
+          url "https://storage.googleapis.com/download.flutter.io"
+      }
+  }
 }
 ```
 
@@ -52,14 +55,9 @@ import {
   StatusBar,
   useColorScheme,
 } from 'react-native';
-import {NavigationContainer, ParamListBase} from '@react-navigation/native';
-import {
-  createNativeStackNavigator,
-  NativeStackScreenProps,
-} from '@react-navigation/native-stack';
-import {MovrScreen} from 'movr_module_rn';
 
-// import { Colors, Header } from 'react-native/Libraries/NewAppScreen';
+import MovrModuleRn from 'movr_module_rn';
+
 const Colors = {
   white: '#fff',
   black: '#000',
@@ -69,9 +67,7 @@ const Colors = {
   darker: '#111',
 };
 
-const Stack = createNativeStackNavigator();
-
-function HomeScreen({navigation}: NativeStackScreenProps<ParamListBase>) {
+const App: React.FC = () => {
   const isDarkMode = useColorScheme() === 'dark';
 
   const backgroundStyle = {
@@ -86,21 +82,17 @@ function HomeScreen({navigation}: NativeStackScreenProps<ParamListBase>) {
         style={backgroundStyle}>
         <Button
           title={'Start Movr Screen'}
-          onPress={() => navigation.navigate('MovrScreen')}
+          onPress={() => {
+            MovrModuleRn.startFlutterActivity('', 0, text => {
+              // 1st param - string argment
+              // 2nd param - number argment
+              // 3rd param - callback which returns input arguments
+              console.log(text);
+            });
+          }}
         />
       </ScrollView>
     </SafeAreaView>
-  );
-}
-
-const App: React.FC = () => {
-  return (
-    <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="MovrScreen" component={MovrScreen} />
-      </Stack.Navigator>
-    </NavigationContainer>
   );
 };
 
