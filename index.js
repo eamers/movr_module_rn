@@ -1,3 +1,5 @@
-// main index.js
+import { NativeModules } from 'react-native'
 
-export { default as MovrScreen } from './src/MovrScreen';
+const { MovrModuleRn } = NativeModules;
+
+export default MovrModuleRn;
