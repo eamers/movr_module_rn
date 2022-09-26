@@ -41,9 +41,18 @@ end
 
 ## Usage
 ```javascript
-import {MovrScreen} from 'movr_module_rn';
+import MovrModuleRn from 'movr_module_rn';
 ```
-Implement code to navigate to MovrScreen
+Implement code to open MovrScreen
+
+```javascript
+MovrModuleRn.startFlutterActivity('', 0, text => {
+  // 1st param - string argment
+  // 2nd param - number argment
+  // 3rd param - callback which returns input arguments
+  console.log(text);
+});
+```
 
 ## Example
 ```javascript
