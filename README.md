@@ -43,7 +43,7 @@ end
 ```javascript
 import MovrModuleRn from 'movr_module_rn';
 ```
-Config paramters
+Config input parameters
 ```javascript
 const parameters = {
   apiKey: 'xxxxxx',
