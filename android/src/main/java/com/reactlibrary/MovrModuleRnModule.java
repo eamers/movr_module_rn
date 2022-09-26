@@ -59,7 +59,7 @@ public class MovrModuleRnModule extends ReactContextBaseJavaModule {
                     json.put("userId", "gengis-user");
                     json.put("apiBaseUrl", "https://movr-assess-staging.herokuapp.com/");
                     //json.put("assessmentId", 13)
-                    json.put("primaryColor", "#3E66B9");
+                    json.put("primaryColor", "#FF6666");
                     json.put("fontFamily", "Montserrat");
                     /*  Optional param to configure theme color and appBar and assessmentId
                         json.put("assessmentId", 13)
