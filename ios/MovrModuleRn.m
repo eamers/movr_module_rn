@@ -29,7 +29,7 @@ RCT_EXPORT_MODULE()
     return self;
 }
 
-RCT_EXPORT_METHOD(startFlutterActivity:(NSString *)stringArgument numberParameter:(nonnull NSNumber *)numberArgument callback:(RCTResponseSenderBlock)callback)
+RCT_EXPORT_METHOD(startFlutterActivity:(NSString *)stringArgument callback:(RCTResponseSenderBlock)callback)
 {
     dispatch_async(dispatch_get_main_queue(), ^{
         FlutterViewController *flutterViewController;
@@ -52,25 +52,13 @@ RCT_EXPORT_METHOD(startFlutterActivity:(NSString *)stringArgument numberParamete
                 result(FlutterMethodNotImplemented);
             }
         }];
-        NSDictionary *dict = @{
-            @"apiKey" : @"10f3d7a14c6c5ca062a4d38deb79f7f3e1ad529b",
-            @"userId" : @"gengis-user",
-            @"primaryColor" : @"#3E66B9",
-            @"fontFamily" : @"Montserrat",
-            @"apiBaseUrl" : @"https://movr-assess-staging.herokuapp.com",
-            @"startingPage" : @"movrModuleMenu",
-        };
-        NSError * err;
-        NSData * jsonData = [NSJSONSerialization  dataWithJSONObject:dict options:0 error:&err];
-        NSString * convertedString = [[NSString alloc] initWithData:jsonData   encoding:NSUTF8StringEncoding];
-        NSLog(@"%@",convertedString);
         // fix ui
         [flutterViewController setModalPresentationStyle:UIModalPresentationFullScreen];
 
-        [methodChannel invokeMethod: @"getResult" arguments: convertedString];
+        [methodChannel invokeMethod: @"getResult" arguments: stringArgument];
         UIViewController *rootController = UIApplication.sharedApplication.delegate.window.rootViewController;
         [rootController presentViewController:flutterViewController animated:YES completion:nil];
-        callback(@[[NSString stringWithFormat: @"numberArgument: %@ stringArgument: %@", numberArgument, stringArgument]]);
+        callback(@[[NSString stringWithFormat: @"stringArgument: %@", stringArgument]]);
     });
 }
 @end
