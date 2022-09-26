@@ -11,7 +11,7 @@ const MovrScreen = () => {
   }, [])
   return (
     <View>
-      <Text>Hello from RN wrapper for Flutter {Platform.OS}!</Text>
+      <Text>movr module</Text>
     </View>
   )
 }
