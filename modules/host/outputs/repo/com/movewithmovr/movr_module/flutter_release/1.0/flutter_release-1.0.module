@@ -1,0 +1,202 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.movewithmovr.movr_module",
+    "module": "flutter_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "armeabi_v7a_release",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "arm64_v8a_release",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_64_release",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        },
+        {
+          "group": "com.ryanheise.just_audio",
+          "module": "just_audio_release",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.tekartik.sqflite",
+          "module": "sqflite_release",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.pathprovider",
+          "module": "path_provider_android_release",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.ryanheise.audio_session",
+          "module": "audio_session_release",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.videoplayer",
+          "module": "video_player_android_release",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "creativemaybeno.wakelock",
+          "module": "wakelock_release",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_release-1.0.aar",
+          "url": "flutter_release-1.0.aar",
+          "size": 12268816,
+          "sha512": "76faf74fadb6a348eb339ed07c2a91c74e180c05a957cc469a1d0f1c4ebde708fd1e1ca631e310c1191d8c6a0b1a2277fac36a35429d09f8c5330f8e62c1351f",
+          "sha256": "9338adb0567c31cade410b3b03d120bf6d75babf9b3e0e0946c05a6dc390797f",
+          "sha1": "f5ceb4887b14e4bfc480efc7ceec5cdc41a783e3",
+          "md5": "ac17a0fca090f18233fdcb6c6d5dfcf6"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "armeabi_v7a_release",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "arm64_v8a_release",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_64_release",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        },
+        {
+          "group": "com.ryanheise.just_audio",
+          "module": "just_audio_release",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.tekartik.sqflite",
+          "module": "sqflite_release",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.pathprovider",
+          "module": "path_provider_android_release",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.ryanheise.audio_session",
+          "module": "audio_session_release",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.videoplayer",
+          "module": "video_player_android_release",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "creativemaybeno.wakelock",
+          "module": "wakelock_release",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_release-1.0.aar",
+          "url": "flutter_release-1.0.aar",
+          "size": 12268816,
+          "sha512": "76faf74fadb6a348eb339ed07c2a91c74e180c05a957cc469a1d0f1c4ebde708fd1e1ca631e310c1191d8c6a0b1a2277fac36a35429d09f8c5330f8e62c1351f",
+          "sha256": "9338adb0567c31cade410b3b03d120bf6d75babf9b3e0e0946c05a6dc390797f",
+          "sha1": "f5ceb4887b14e4bfc480efc7ceec5cdc41a783e3",
+          "md5": "ac17a0fca090f18233fdcb6c6d5dfcf6"
+        }
+      ]
+    }
+  ]
+}
