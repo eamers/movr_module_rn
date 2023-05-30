@@ -12,5 +12,11 @@ def use_movr_module_rn! (options={})
   pod 'FlutterModuleFrameworks-Release',
     :configuration => 'Release',
     :podspec => "#{prefix}/ios/Podspecs/MovrModuleRn-Release.podspec"
+  target.build_configurations.each do |config|
+      config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] ||= [
+        '$(inherited)',
+        'AUDIO_SESSION_MICROPHONE=0'
+      ]
+  end
 end
 
