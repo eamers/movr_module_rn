@@ -27,28 +27,28 @@
           "group": "io.flutter",
           "module": "flutter_embedding_profile",
           "version": {
-            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+            "requires": "1.0.0-90fa3ae28fe6ddaee1af2c120f01e50201c1401b"
           }
         },
         {
           "group": "io.flutter",
           "module": "armeabi_v7a_profile",
           "version": {
-            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+            "requires": "1.0.0-90fa3ae28fe6ddaee1af2c120f01e50201c1401b"
           }
         },
         {
           "group": "io.flutter",
           "module": "arm64_v8a_profile",
           "version": {
-            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+            "requires": "1.0.0-90fa3ae28fe6ddaee1af2c120f01e50201c1401b"
           }
         },
         {
           "group": "io.flutter",
           "module": "x86_64_profile",
           "version": {
-            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+            "requires": "1.0.0-90fa3ae28fe6ddaee1af2c120f01e50201c1401b"
           }
         },
         {
@@ -98,11 +98,11 @@
         {
           "name": "flutter_profile-1.0.aar",
           "url": "flutter_profile-1.0.aar",
-          "size": 16048491,
-          "sha512": "1baa628cdd75e086641594a69b7bdb1f6e58b728783565ca3c89fcca615dc4e507cbe48003c4c616bef1652847a8472da04b47ded2611af3d98c3d6e4c8c5a53",
-          "sha256": "a05356fe3dde04c8f0802ec30493cdcada89391673d2972035c64f7bb34a648a",
-          "sha1": "09822c8431a5b013afcf62aa7ebd61b4885e50e4",
-          "md5": "3f4f14df19727a27b5d5fd50ddfd5661"
+          "size": 16024771,
+          "sha512": "11e4c2c8719908c22416aaac62cf45f894892a016ae90de268c918d6819deaee8c74a3bec7ae030c1a39ca7bd85997661e153405535ac23d70c58eb3c172324c",
+          "sha256": "ec43317743a9607a5b8872306a269cb1b82fd0fd4509c64582366ee190cf7ab0",
+          "sha1": "26f08d5e3ef00f71d15d1541c1b3adc511a9cb3e",
+          "md5": "96472382eb103fa86598791e7cdef6d1"
         }
       ]
     },
@@ -119,28 +119,28 @@
           "group": "io.flutter",
           "module": "flutter_embedding_profile",
           "version": {
-            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+            "requires": "1.0.0-90fa3ae28fe6ddaee1af2c120f01e50201c1401b"
           }
         },
         {
           "group": "io.flutter",
           "module": "armeabi_v7a_profile",
           "version": {
-            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+            "requires": "1.0.0-90fa3ae28fe6ddaee1af2c120f01e50201c1401b"
           }
         },
         {
           "group": "io.flutter",
           "module": "arm64_v8a_profile",
           "version": {
-            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+            "requires": "1.0.0-90fa3ae28fe6ddaee1af2c120f01e50201c1401b"
           }
         },
         {
           "group": "io.flutter",
           "module": "x86_64_profile",
           "version": {
-            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+            "requires": "1.0.0-90fa3ae28fe6ddaee1af2c120f01e50201c1401b"
           }
         },
         {
@@ -190,11 +190,11 @@
         {
           "name": "flutter_profile-1.0.aar",
           "url": "flutter_profile-1.0.aar",
-          "size": 16048491,
-          "sha512": "1baa628cdd75e086641594a69b7bdb1f6e58b728783565ca3c89fcca615dc4e507cbe48003c4c616bef1652847a8472da04b47ded2611af3d98c3d6e4c8c5a53",
-          "sha256": "a05356fe3dde04c8f0802ec30493cdcada89391673d2972035c64f7bb34a648a",
-          "sha1": "09822c8431a5b013afcf62aa7ebd61b4885e50e4",
-          "md5": "3f4f14df19727a27b5d5fd50ddfd5661"
+          "size": 16024771,
+          "sha512": "11e4c2c8719908c22416aaac62cf45f894892a016ae90de268c918d6819deaee8c74a3bec7ae030c1a39ca7bd85997661e153405535ac23d70c58eb3c172324c",
+          "sha256": "ec43317743a9607a5b8872306a269cb1b82fd0fd4509c64582366ee190cf7ab0",
+          "sha1": "26f08d5e3ef00f71d15d1541c1b3adc511a9cb3e",
+          "md5": "96472382eb103fa86598791e7cdef6d1"
         }
       ]
     }

@@ -15,7 +15,7 @@
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>flutter_embedding_release</artifactId>
-      <version>1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084</version>
+      <version>1.0.0-90fa3ae28fe6ddaee1af2c120f01e50201c1401b</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>

@@ -27,7 +27,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_debug",
           "version": {
-            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+            "requires": "1.0.0-90fa3ae28fe6ddaee1af2c120f01e50201c1401b"
           }
         }
       ],
@@ -56,35 +56,35 @@
           "group": "io.flutter",
           "module": "flutter_embedding_debug",
           "version": {
-            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+            "requires": "1.0.0-90fa3ae28fe6ddaee1af2c120f01e50201c1401b"
           }
         },
         {
           "group": "com.google.android.exoplayer",
           "module": "exoplayer-core",
           "version": {
-            "requires": "2.18.5"
+            "requires": "2.18.6"
           }
         },
         {
           "group": "com.google.android.exoplayer",
           "module": "exoplayer-hls",
           "version": {
-            "requires": "2.18.5"
+            "requires": "2.18.6"
           }
         },
         {
           "group": "com.google.android.exoplayer",
           "module": "exoplayer-dash",
           "version": {
-            "requires": "2.18.5"
+            "requires": "2.18.6"
           }
         },
         {
           "group": "com.google.android.exoplayer",
           "module": "exoplayer-smoothstreaming",
           "version": {
-            "requires": "2.18.5"
+            "requires": "2.18.6"
           }
         }
       ],

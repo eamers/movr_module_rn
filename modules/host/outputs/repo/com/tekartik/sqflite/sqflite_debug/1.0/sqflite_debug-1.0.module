@@ -27,7 +27,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_debug",
           "version": {
-            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+            "requires": "1.0.0-90fa3ae28fe6ddaee1af2c120f01e50201c1401b"
           }
         }
       ],
@@ -35,11 +35,11 @@
         {
           "name": "sqflite_debug-1.0.aar",
           "url": "sqflite_debug-1.0.aar",
-          "size": 47359,
-          "sha512": "e80fb8b94abcca695612c564637129fe2fbc4f571822080125ace122618947cd3a2713963e7d622dd352d21ccc6552884436773ec3800093393be100764f4135",
-          "sha256": "71cfebf0a6dadd8175d4460dbf4bff9b20ca10b0f25ce7de563c077ea3af8051",
-          "sha1": "80ca0cb895b372be188b2f6e21f84325126c3ee5",
-          "md5": "9db26ac68cbf35e74517ab30d9bda695"
+          "size": 47338,
+          "sha512": "e2d3c83ddcdb58ff459458af7874ba77213748794626dcdc5f8e556caff59a8559be3e201a7f0965882a328d4409e078c2c9bdfe1f4f86bbfd946f72e478f763",
+          "sha256": "725a1dc83944313a62391489e515ef327247480358d04bdb456770d347d78c2b",
+          "sha1": "696782036e6b0d9eee0def83963e6f3bc0ba9b2e",
+          "md5": "bd1c8d8e70a6450f4192356fb96d7b1f"
         }
       ]
     },
@@ -56,7 +56,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_debug",
           "version": {
-            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+            "requires": "1.0.0-90fa3ae28fe6ddaee1af2c120f01e50201c1401b"
           }
         }
       ],
@@ -64,11 +64,11 @@
         {
           "name": "sqflite_debug-1.0.aar",
           "url": "sqflite_debug-1.0.aar",
-          "size": 47359,
-          "sha512": "e80fb8b94abcca695612c564637129fe2fbc4f571822080125ace122618947cd3a2713963e7d622dd352d21ccc6552884436773ec3800093393be100764f4135",
-          "sha256": "71cfebf0a6dadd8175d4460dbf4bff9b20ca10b0f25ce7de563c077ea3af8051",
-          "sha1": "80ca0cb895b372be188b2f6e21f84325126c3ee5",
-          "md5": "9db26ac68cbf35e74517ab30d9bda695"
+          "size": 47338,
+          "sha512": "e2d3c83ddcdb58ff459458af7874ba77213748794626dcdc5f8e556caff59a8559be3e201a7f0965882a328d4409e078c2c9bdfe1f4f86bbfd946f72e478f763",
+          "sha256": "725a1dc83944313a62391489e515ef327247480358d04bdb456770d347d78c2b",
+          "sha1": "696782036e6b0d9eee0def83963e6f3bc0ba9b2e",
+          "md5": "bd1c8d8e70a6450f4192356fb96d7b1f"
         }
       ]
     }
