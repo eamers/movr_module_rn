@@ -36,6 +36,12 @@ target ‘YourProjectName’ do
  …
 end
 
+post_install do |installer|
+  …
+  movr_module_rn_post_install(installer)
+  …
+end
+
 ```
 - Run cd ios && pod install
 
