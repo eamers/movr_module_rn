@@ -108,13 +108,29 @@ const App: React.FC = () => {
         <Button
           title={'Start Movr Screen'}
           onPress={() => {
-            const parameters = {
-              apiKey: 'xxxxxx',
-              userId: 'userId',
-              apiBaseUrl: 'xxxxx',
-              primaryColor: '#FF6666',
+          const parameters = {
+              apiKey: 'xxxx',
+              userId: 'xxxx', // This is generated on the partner side
+              apiBaseUrl: 'xxxx',
               fontFamily: 'Montserrat',
-              startingPage: 'xxxxxx',
+              startingPage: 'minis',
+              theme: {
+                textStyles: {
+                    "display_large":  {"font": "Montserrat", "weight":900, "size":50},
+                    "body_large":  {"font": "Montserrat", "weight":600, "size":18},
+                    "headline_large":  {"font": "Montserrat", "weight":900, "size":50}
+                },
+                "colors": { // These are just examples, leave blank for defaults
+                    "movr_beige":"#A0816C",
+                    "movr_navy":"#000080",
+                    "movr_black": "#000000",
+                    "assessments":"#0000FF",
+                    "prescriptions":"#FF0000",
+                    "session_builder":"#FFFF00",
+                    "icons_color":"#FFFF00",
+                    hide_drop_shadow: true
+                }
+              }
             };
             MovrModuleRn.startFlutterActivity(
               JSON.stringify(parameters),
