@@ -27,35 +27,35 @@
           "group": "io.flutter",
           "module": "flutter_embedding_debug",
           "version": {
-            "requires": "1.0.0-90fa3ae28fe6ddaee1af2c120f01e50201c1401b"
+            "requires": "1.0.0-1ac611c64eadbd93c5f5aba5494b8fc3b35ee952"
           }
         },
         {
           "group": "io.flutter",
           "module": "armeabi_v7a_debug",
           "version": {
-            "requires": "1.0.0-90fa3ae28fe6ddaee1af2c120f01e50201c1401b"
+            "requires": "1.0.0-1ac611c64eadbd93c5f5aba5494b8fc3b35ee952"
           }
         },
         {
           "group": "io.flutter",
           "module": "arm64_v8a_debug",
           "version": {
-            "requires": "1.0.0-90fa3ae28fe6ddaee1af2c120f01e50201c1401b"
+            "requires": "1.0.0-1ac611c64eadbd93c5f5aba5494b8fc3b35ee952"
           }
         },
         {
           "group": "io.flutter",
           "module": "x86_64_debug",
           "version": {
-            "requires": "1.0.0-90fa3ae28fe6ddaee1af2c120f01e50201c1401b"
+            "requires": "1.0.0-1ac611c64eadbd93c5f5aba5494b8fc3b35ee952"
           }
         },
         {
           "group": "io.flutter",
           "module": "x86_debug",
           "version": {
-            "requires": "1.0.0-90fa3ae28fe6ddaee1af2c120f01e50201c1401b"
+            "requires": "1.0.0-1ac611c64eadbd93c5f5aba5494b8fc3b35ee952"
           }
         },
         {
@@ -92,24 +92,17 @@
           "version": {
             "requires": "1.0"
           }
-        },
-        {
-          "group": "creativemaybeno.wakelock",
-          "module": "wakelock_debug",
-          "version": {
-            "requires": "1.0"
-          }
         }
       ],
       "files": [
         {
           "name": "flutter_debug-1.0.aar",
           "url": "flutter_debug-1.0.aar",
-          "size": 21329735,
-          "sha512": "52163aec4fc36769e5efe0d4a1b843d04f05917d9b9f29ad59bb52c515e5e8eb176529f95584e963c4fd8e7eb7b5e25e1b8745cc5c2461fbba6fa5fd470567a4",
-          "sha256": "af73c8a08fc555ccf66cdbc05ad835b5f5f07e73753b00cfd32e62ee73cce5a1",
-          "sha1": "5b68c6c7ed1a765a1b553aba8e7c9bd670c18cb0",
-          "md5": "cb61c910e1af1d36f38ecc6db0aa78cf"
+          "size": 22003043,
+          "sha512": "c7b04977428b410e0160bec3df7c1720dd9158400c6815aa07ab2230e7fa33450e5b39972f06a29edd8761576760c6ce3f8e73d045075d958a8638d2d7d9e5e6",
+          "sha256": "add385ea04ea363095998415c424d78f9e64b10885cbbe5221010f096b41faea",
+          "sha1": "5ba690d2c9e52d4c112a2a85588d7b40fe565b26",
+          "md5": "f9b78ba7e25599ab7fb43f6f3014dfcc"
         }
       ]
     },
@@ -126,35 +119,35 @@
           "group": "io.flutter",
           "module": "flutter_embedding_debug",
           "version": {
-            "requires": "1.0.0-90fa3ae28fe6ddaee1af2c120f01e50201c1401b"
+            "requires": "1.0.0-1ac611c64eadbd93c5f5aba5494b8fc3b35ee952"
           }
         },
         {
           "group": "io.flutter",
           "module": "armeabi_v7a_debug",
           "version": {
-            "requires": "1.0.0-90fa3ae28fe6ddaee1af2c120f01e50201c1401b"
+            "requires": "1.0.0-1ac611c64eadbd93c5f5aba5494b8fc3b35ee952"
           }
         },
         {
           "group": "io.flutter",
           "module": "arm64_v8a_debug",
           "version": {
-            "requires": "1.0.0-90fa3ae28fe6ddaee1af2c120f01e50201c1401b"
+            "requires": "1.0.0-1ac611c64eadbd93c5f5aba5494b8fc3b35ee952"
           }
         },
         {
           "group": "io.flutter",
           "module": "x86_64_debug",
           "version": {
-            "requires": "1.0.0-90fa3ae28fe6ddaee1af2c120f01e50201c1401b"
+            "requires": "1.0.0-1ac611c64eadbd93c5f5aba5494b8fc3b35ee952"
           }
         },
         {
           "group": "io.flutter",
           "module": "x86_debug",
           "version": {
-            "requires": "1.0.0-90fa3ae28fe6ddaee1af2c120f01e50201c1401b"
+            "requires": "1.0.0-1ac611c64eadbd93c5f5aba5494b8fc3b35ee952"
           }
         },
         {
@@ -191,24 +184,17 @@
           "version": {
             "requires": "1.0"
           }
-        },
-        {
-          "group": "creativemaybeno.wakelock",
-          "module": "wakelock_debug",
-          "version": {
-            "requires": "1.0"
-          }
         }
       ],
       "files": [
         {
           "name": "flutter_debug-1.0.aar",
           "url": "flutter_debug-1.0.aar",
-          "size": 21329735,
-          "sha512": "52163aec4fc36769e5efe0d4a1b843d04f05917d9b9f29ad59bb52c515e5e8eb176529f95584e963c4fd8e7eb7b5e25e1b8745cc5c2461fbba6fa5fd470567a4",
-          "sha256": "af73c8a08fc555ccf66cdbc05ad835b5f5f07e73753b00cfd32e62ee73cce5a1",
-          "sha1": "5b68c6c7ed1a765a1b553aba8e7c9bd670c18cb0",
-          "md5": "cb61c910e1af1d36f38ecc6db0aa78cf"
+          "size": 22003043,
+          "sha512": "c7b04977428b410e0160bec3df7c1720dd9158400c6815aa07ab2230e7fa33450e5b39972f06a29edd8761576760c6ce3f8e73d045075d958a8638d2d7d9e5e6",
+          "sha256": "add385ea04ea363095998415c424d78f9e64b10885cbbe5221010f096b41faea",
+          "sha1": "5ba690d2c9e52d4c112a2a85588d7b40fe565b26",
+          "md5": "f9b78ba7e25599ab7fb43f6f3014dfcc"
         }
       ]
     }

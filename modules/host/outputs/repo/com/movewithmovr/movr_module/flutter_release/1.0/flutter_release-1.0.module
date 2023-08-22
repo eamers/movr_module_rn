@@ -27,28 +27,28 @@
           "group": "io.flutter",
           "module": "flutter_embedding_release",
           "version": {
-            "requires": "1.0.0-90fa3ae28fe6ddaee1af2c120f01e50201c1401b"
+            "requires": "1.0.0-1ac611c64eadbd93c5f5aba5494b8fc3b35ee952"
           }
         },
         {
           "group": "io.flutter",
           "module": "armeabi_v7a_release",
           "version": {
-            "requires": "1.0.0-90fa3ae28fe6ddaee1af2c120f01e50201c1401b"
+            "requires": "1.0.0-1ac611c64eadbd93c5f5aba5494b8fc3b35ee952"
           }
         },
         {
           "group": "io.flutter",
           "module": "arm64_v8a_release",
           "version": {
-            "requires": "1.0.0-90fa3ae28fe6ddaee1af2c120f01e50201c1401b"
+            "requires": "1.0.0-1ac611c64eadbd93c5f5aba5494b8fc3b35ee952"
           }
         },
         {
           "group": "io.flutter",
           "module": "x86_64_release",
           "version": {
-            "requires": "1.0.0-90fa3ae28fe6ddaee1af2c120f01e50201c1401b"
+            "requires": "1.0.0-1ac611c64eadbd93c5f5aba5494b8fc3b35ee952"
           }
         },
         {
@@ -85,24 +85,17 @@
           "version": {
             "requires": "1.0"
           }
-        },
-        {
-          "group": "creativemaybeno.wakelock",
-          "module": "wakelock_release",
-          "version": {
-            "requires": "1.0"
-          }
         }
       ],
       "files": [
         {
           "name": "flutter_release-1.0.aar",
           "url": "flutter_release-1.0.aar",
-          "size": 12490619,
-          "sha512": "efef6725c80d356df0bba2822ef8688c0cbdcc061406b9f1ed3bc274f6e592b259893b238f1f6e2548ecd84a538494c97e543b625e620cd5893155ca60d26d39",
-          "sha256": "35544f926485fb2a06397666dad8aa88810772d1da71e292d8d1135fea595102",
-          "sha1": "8a2f0e126369e8d8e54af1fa8de9146a851a0503",
-          "md5": "2da379ba5496c9e05e152675783e1dfa"
+          "size": 11983495,
+          "sha512": "508ec7b00207f28c3afa42d5d0e16b8bfd72aa02b099880e9f3441156d1e952cdb8145e1575a409175bf31bc9231963d213ec6daa11384dab19682f401d5eac7",
+          "sha256": "2203af304f4821cdffd1f691f31f06465a17c6e215851a80acc8e9399a06a401",
+          "sha1": "957c4827ab660bd5b111cadc989f839ca9c25483",
+          "md5": "3d237916b3f0dbdfabb79eaf27f4ebae"
         }
       ]
     },
@@ -119,28 +112,28 @@
           "group": "io.flutter",
           "module": "flutter_embedding_release",
           "version": {
-            "requires": "1.0.0-90fa3ae28fe6ddaee1af2c120f01e50201c1401b"
+            "requires": "1.0.0-1ac611c64eadbd93c5f5aba5494b8fc3b35ee952"
           }
         },
         {
           "group": "io.flutter",
           "module": "armeabi_v7a_release",
           "version": {
-            "requires": "1.0.0-90fa3ae28fe6ddaee1af2c120f01e50201c1401b"
+            "requires": "1.0.0-1ac611c64eadbd93c5f5aba5494b8fc3b35ee952"
           }
         },
         {
           "group": "io.flutter",
           "module": "arm64_v8a_release",
           "version": {
-            "requires": "1.0.0-90fa3ae28fe6ddaee1af2c120f01e50201c1401b"
+            "requires": "1.0.0-1ac611c64eadbd93c5f5aba5494b8fc3b35ee952"
           }
         },
         {
           "group": "io.flutter",
           "module": "x86_64_release",
           "version": {
-            "requires": "1.0.0-90fa3ae28fe6ddaee1af2c120f01e50201c1401b"
+            "requires": "1.0.0-1ac611c64eadbd93c5f5aba5494b8fc3b35ee952"
           }
         },
         {
@@ -177,24 +170,17 @@
           "version": {
             "requires": "1.0"
           }
-        },
-        {
-          "group": "creativemaybeno.wakelock",
-          "module": "wakelock_release",
-          "version": {
-            "requires": "1.0"
-          }
         }
       ],
       "files": [
         {
           "name": "flutter_release-1.0.aar",
           "url": "flutter_release-1.0.aar",
-          "size": 12490619,
-          "sha512": "efef6725c80d356df0bba2822ef8688c0cbdcc061406b9f1ed3bc274f6e592b259893b238f1f6e2548ecd84a538494c97e543b625e620cd5893155ca60d26d39",
-          "sha256": "35544f926485fb2a06397666dad8aa88810772d1da71e292d8d1135fea595102",
-          "sha1": "8a2f0e126369e8d8e54af1fa8de9146a851a0503",
-          "md5": "2da379ba5496c9e05e152675783e1dfa"
+          "size": 11983495,
+          "sha512": "508ec7b00207f28c3afa42d5d0e16b8bfd72aa02b099880e9f3441156d1e952cdb8145e1575a409175bf31bc9231963d213ec6daa11384dab19682f401d5eac7",
+          "sha256": "2203af304f4821cdffd1f691f31f06465a17c6e215851a80acc8e9399a06a401",
+          "sha1": "957c4827ab660bd5b111cadc989f839ca9c25483",
+          "md5": "3d237916b3f0dbdfabb79eaf27f4ebae"
         }
       ]
     }

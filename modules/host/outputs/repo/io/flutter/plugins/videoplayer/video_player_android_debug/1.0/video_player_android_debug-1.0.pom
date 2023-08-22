@@ -15,31 +15,31 @@
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>flutter_embedding_debug</artifactId>
-      <version>1.0.0-90fa3ae28fe6ddaee1af2c120f01e50201c1401b</version>
+      <version>1.0.0-1ac611c64eadbd93c5f5aba5494b8fc3b35ee952</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.google.android.exoplayer</groupId>
       <artifactId>exoplayer-core</artifactId>
-      <version>2.18.6</version>
+      <version>2.18.7</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>com.google.android.exoplayer</groupId>
       <artifactId>exoplayer-hls</artifactId>
-      <version>2.18.6</version>
+      <version>2.18.7</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>com.google.android.exoplayer</groupId>
       <artifactId>exoplayer-dash</artifactId>
-      <version>2.18.6</version>
+      <version>2.18.7</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>com.google.android.exoplayer</groupId>
       <artifactId>exoplayer-smoothstreaming</artifactId>
-      <version>2.18.6</version>
+      <version>2.18.7</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>

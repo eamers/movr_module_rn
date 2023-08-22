@@ -15,25 +15,25 @@
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>flutter_embedding_release</artifactId>
-      <version>1.0.0-90fa3ae28fe6ddaee1af2c120f01e50201c1401b</version>
+      <version>1.0.0-1ac611c64eadbd93c5f5aba5494b8fc3b35ee952</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>armeabi_v7a_release</artifactId>
-      <version>1.0.0-90fa3ae28fe6ddaee1af2c120f01e50201c1401b</version>
+      <version>1.0.0-1ac611c64eadbd93c5f5aba5494b8fc3b35ee952</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>arm64_v8a_release</artifactId>
-      <version>1.0.0-90fa3ae28fe6ddaee1af2c120f01e50201c1401b</version>
+      <version>1.0.0-1ac611c64eadbd93c5f5aba5494b8fc3b35ee952</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>x86_64_release</artifactId>
-      <version>1.0.0-90fa3ae28fe6ddaee1af2c120f01e50201c1401b</version>
+      <version>1.0.0-1ac611c64eadbd93c5f5aba5494b8fc3b35ee952</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -63,12 +63,6 @@
     <dependency>
       <groupId>io.flutter.plugins.videoplayer</groupId>
       <artifactId>video_player_android_release</artifactId>
-      <version>1.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>creativemaybeno.wakelock</groupId>
-      <artifactId>wakelock_release</artifactId>
       <version>1.0</version>
       <scope>compile</scope>
     </dependency>
