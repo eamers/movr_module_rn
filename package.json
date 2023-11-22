@@ -1,7 +1,7 @@
 {
   "name": "movr_module_rn",
   "title": "React Native movr sdk",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "React Native movr module for iOS and Android",
   "main": "index.js",
   "files": [
