@@ -35,11 +35,11 @@
         {
           "name": "just_audio_debug-1.0.aar",
           "url": "just_audio_debug-1.0.aar",
-          "size": 29856,
-          "sha512": "1a817fe2050160382831bdf33b3aa1251351836cb0e9e7b70d9f40fa69319be4b2577801caaa36019593843a43340399404af3c84c0dec7840b2bd87d262bbf7",
-          "sha256": "f65f6188f10754501c98fc10a4a7df4c00d698c43f32ec7158a1c9e4489ade1e",
-          "sha1": "6bd619d9c83cea45d7de65cbb57c8ce775716852",
-          "md5": "a468094485508da7679703040e0f590e"
+          "size": 30599,
+          "sha512": "3c66e7a7bcc5d903443836655183876c8f6f4726e45783fb512b57542fe058d6a49b9a76bf6172c6860c886f5522da1c312115a9a33b4fc30f99629b8785b890",
+          "sha256": "6329f909de75b7dcf694a1926634816de22967cd7313504fdf41715fef6f9b9d",
+          "sha1": "f73a7aa3b1b4e88f4f09602c7643c2b70b942998",
+          "md5": "5ab9807edefe755a05107cf4af89833a"
         }
       ]
     },
@@ -99,11 +99,11 @@
         {
           "name": "just_audio_debug-1.0.aar",
           "url": "just_audio_debug-1.0.aar",
-          "size": 29856,
-          "sha512": "1a817fe2050160382831bdf33b3aa1251351836cb0e9e7b70d9f40fa69319be4b2577801caaa36019593843a43340399404af3c84c0dec7840b2bd87d262bbf7",
-          "sha256": "f65f6188f10754501c98fc10a4a7df4c00d698c43f32ec7158a1c9e4489ade1e",
-          "sha1": "6bd619d9c83cea45d7de65cbb57c8ce775716852",
-          "md5": "a468094485508da7679703040e0f590e"
+          "size": 30599,
+          "sha512": "3c66e7a7bcc5d903443836655183876c8f6f4726e45783fb512b57542fe058d6a49b9a76bf6172c6860c886f5522da1c312115a9a33b4fc30f99629b8785b890",
+          "sha256": "6329f909de75b7dcf694a1926634816de22967cd7313504fdf41715fef6f9b9d",
+          "sha1": "f73a7aa3b1b4e88f4f09602c7643c2b70b942998",
+          "md5": "5ab9807edefe755a05107cf4af89833a"
         }
       ]
     }

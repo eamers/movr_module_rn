@@ -63,7 +63,7 @@
           "group": "androidx.annotation",
           "module": "annotation",
           "version": {
-            "requires": "1.5.0"
+            "requires": "1.7.0"
           }
         }
       ],
