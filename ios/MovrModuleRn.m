@@ -32,6 +32,10 @@ RCT_EXPORT_MODULE()
 RCT_EXPORT_METHOD(startFlutterActivity:(NSString *)stringArgument callback:(RCTResponseSenderBlock)callback)
 {
     dispatch_async(dispatch_get_main_queue(), ^{
+        self.flutterEngine = [[FlutterEngine alloc] initWithName:@"flutter_engine" project:nil];
+        [self.flutterEngine runWithEntrypoint:nil];
+        [GeneratedPluginRegistrant registerWithRegistry:self.flutterEngine];
+
         FlutterViewController *flutterViewController;
         if (self.flutterEngine == nil && _flutterEngine == nil) {
             // It is not recommended, but we can create a FlutterViewController with an implicit FlutterEngine
