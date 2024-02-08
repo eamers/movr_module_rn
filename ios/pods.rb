@@ -19,7 +19,8 @@ def movr_module_rn_post_install(installer)
     target.build_configurations.each do |config|
       config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] ||= [
         '$(inherited)',
-        'AUDIO_SESSION_MICROPHONE=0'
+        'AUDIO_SESSION_MICROPHONE=0',
+        'PERMISSION_MICROPHONE=0'
       ]
     end
   end
