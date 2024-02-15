@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/brendan/projects/movr_assess_sdk/movr_module/.android/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /Users/brendan/projects/movr_assess_sdk/movr_module/.android/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /Users/brendan/projects/movr_assess_sdk/movr_module/.android/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /Users/brendan/projects/movr_assess_sdk/movr_module/.android/app/src/main/AndroidManifest.xml:2:1-40:12
+ADDED from /Users/brendan/projects/movr_assess_sdk/movr_module/.android/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/brendan/projects/movr_assess_sdk/movr_module/.android/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/brendan/projects/movr_assess_sdk/movr_module/.android/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/brendan/projects/movr_assess_sdk/movr_module/.android/app/src/main/AndroidManifest.xml:2:1-51:12
 MERGED from [:flutter] /Users/brendan/projects/movr_assess_sdk/movr_module/.android/Flutter/build/intermediates/merged_manifest/release/AndroidManifest.xml:3:1-26:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/brendan/.gradle/caches/transforms-3/223b9f790050b6c01f7edb01f29885db/transformed/appcompat-1.0.2/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/brendan/.gradle/caches/transforms-3/e96dfd4805c22329dc86975f01e4952a/transformed/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
@@ -55,20 +55,20 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/brendan/.gradle
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/brendan/.gradle/caches/transforms-3/c9c1416cfdc16237773b18cd0425609e/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/brendan/.gradle/caches/transforms-3/d67fb65d423f69a271e62fa0f5833fa6/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/brendan/.gradle/caches/transforms-3/6c0c163cc77ae6c91f9f7dfcd179c29c/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/brendan/projects/movr_assess_sdk/movr_module/.android/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /Users/brendan/projects/movr_assess_sdk/movr_module/.android/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /Users/brendan/projects/movr_assess_sdk/movr_module/.android/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/brendan/projects/movr_assess_sdk/movr_module/.android/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/brendan/projects/movr_assess_sdk/movr_module/.android/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/brendan/projects/movr_assess_sdk/movr_module/.android/app/src/main/AndroidManifest.xml:2:1-51:12
 	package
 		ADDED from /Users/brendan/projects/movr_assess_sdk/movr_module/.android/app/src/main/AndroidManifest.xml:3:11-54
 		INJECTED from /Users/brendan/projects/movr_assess_sdk/movr_module/.android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/brendan/projects/movr_assess_sdk/movr_module/.android/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/brendan/projects/movr_assess_sdk/movr_module/.android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/brendan/projects/movr_assess_sdk/movr_module/.android/app/src/main/AndroidManifest.xml:2:1-40:12
+		ADDED from /Users/brendan/projects/movr_assess_sdk/movr_module/.android/app/src/main/AndroidManifest.xml:2:1-51:12
 		INJECTED from /Users/brendan/projects/movr_assess_sdk/movr_module/.android/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/brendan/projects/movr_assess_sdk/movr_module/.android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/brendan/projects/movr_assess_sdk/movr_module/.android/app/src/main/AndroidManifest.xml:2:1-40:12
+		ADDED from /Users/brendan/projects/movr_assess_sdk/movr_module/.android/app/src/main/AndroidManifest.xml:2:1-51:12
 		INJECTED from /Users/brendan/projects/movr_assess_sdk/movr_module/.android/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/brendan/projects/movr_assess_sdk/movr_module/.android/app/src/main/AndroidManifest.xml:2:11-69
@@ -138,6 +138,22 @@ MERGED from [:flutter] /Users/brendan/projects/movr_assess_sdk/movr_module/.andr
 		ADDED from /Users/brendan/projects/movr_assess_sdk/movr_module/.android/app/src/main/AndroidManifest.xml:38:13-30
 	android:name
 		ADDED from /Users/brendan/projects/movr_assess_sdk/movr_module/.android/app/src/main/AndroidManifest.xml:37:13-44
+queries
+ADDED from /Users/brendan/projects/movr_assess_sdk/movr_module/.android/app/src/main/AndroidManifest.xml:45:5-50:15
+MERGED from [androidx.media2:media2-session:1.2.1] /Users/brendan/.gradle/caches/transforms-3/1c11fcd5d741b7583794ec56efdeaa69/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:24:5-34:15
+MERGED from [androidx.media2:media2-session:1.2.1] /Users/brendan/.gradle/caches/transforms-3/1c11fcd5d741b7583794ec56efdeaa69/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:24:5-34:15
+MERGED from [androidx.media:media:1.4.1] /Users/brendan/.gradle/caches/transforms-3/33aeac6041f7f32f65addefb234a1ba0/transformed/media-1.4.1/AndroidManifest.xml:24:5-28:15
+MERGED from [androidx.media:media:1.4.1] /Users/brendan/.gradle/caches/transforms-3/33aeac6041f7f32f65addefb234a1ba0/transformed/media-1.4.1/AndroidManifest.xml:24:5-28:15
+intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
+ADDED from /Users/brendan/projects/movr_assess_sdk/movr_module/.android/app/src/main/AndroidManifest.xml:46:9-49:18
+action#android.intent.action.PROCESS_TEXT
+ADDED from /Users/brendan/projects/movr_assess_sdk/movr_module/.android/app/src/main/AndroidManifest.xml:47:13-72
+	android:name
+		ADDED from /Users/brendan/projects/movr_assess_sdk/movr_module/.android/app/src/main/AndroidManifest.xml:47:21-70
+data
+ADDED from /Users/brendan/projects/movr_assess_sdk/movr_module/.android/app/src/main/AndroidManifest.xml:48:13-50
+	android:mimeType
+		ADDED from /Users/brendan/projects/movr_assess_sdk/movr_module/.android/app/src/main/AndroidManifest.xml:48:19-48
 uses-sdk
 INJECTED from /Users/brendan/projects/movr_assess_sdk/movr_module/.android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/brendan/projects/movr_assess_sdk/movr_module/.android/app/src/main/AndroidManifest.xml
@@ -266,10 +282,6 @@ MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] /Users/brenda
 MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] /Users/brendan/.gradle/caches/transforms-3/3a633bb9eac75a1461b6fbfc4b0e1113/transformed/jetified-exoplayer-common-2.18.7/AndroidManifest.xml:24:5-79
 	android:name
 		ADDED from [com.google.android.exoplayer:exoplayer-core:2.18.7] /Users/brendan/.gradle/caches/transforms-3/e255c6ce9910a673f2619b479a7d74a8/transformed/jetified-exoplayer-core-2.18.7/AndroidManifest.xml:24:22-76
-queries
-ADDED from [androidx.media2:media2-session:1.2.1] /Users/brendan/.gradle/caches/transforms-3/1c11fcd5d741b7583794ec56efdeaa69/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:24:5-34:15
-MERGED from [androidx.media:media:1.4.1] /Users/brendan/.gradle/caches/transforms-3/33aeac6041f7f32f65addefb234a1ba0/transformed/media-1.4.1/AndroidManifest.xml:24:5-28:15
-MERGED from [androidx.media:media:1.4.1] /Users/brendan/.gradle/caches/transforms-3/33aeac6041f7f32f65addefb234a1ba0/transformed/media-1.4.1/AndroidManifest.xml:24:5-28:15
 intent#action:name:android.media.browse.MediaBrowserService
 ADDED from [androidx.media2:media2-session:1.2.1] /Users/brendan/.gradle/caches/transforms-3/1c11fcd5d741b7583794ec56efdeaa69/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:25:9-27:18
 action#android.media.browse.MediaBrowserService
